@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Center content vertically and horizontally */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Additional CSS for your container and content */
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .center-content {
+            display: inline-block;
+            text-align: left;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="center-content">
+            <!-- Slack Name -->
+            <div class="slack-name" data-testid="slackUserName">Kenechukwu Ikokwu</div>
+            
+            <!-- Slack Display Picture -->
+            <img src="profile image.jpg" alt="Kenik" data-testid="slackDisplayImage">
+            
+            <!-- Current Day of the Week -->
+            <div class="day-of-week" data-testid="currentDayOfTheWeek">Saturday</div>
+            
+            <!-- Current UTC Time -->
+            <div class="utc-time" data-testid="currentUTCTime">Current time: 09:00 AM</div>
+            
+            <!-- Track -->
+            <div class="track" data-testid="myTrack">Frontend</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
